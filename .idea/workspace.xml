@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d3febc5-b735-46ab-b78b-946417d9c7de" name="Changes" comment="initial commit (main.py) - creating the game window">
-      <change afterPath="$PROJECT_DIR$/assets/dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pacman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/ghost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scenes/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pacmanProject.iml" afterDir="false" />
+    <list default="true" id="8d3febc5-b735-46ab-b78b-946417d9c7de" name="Changes" comment="project initialized, need to implement fases and back to main menu">
+      <change afterPath="$PROJECT_DIR$/assets/death.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/eat.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/game_music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menu_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menu_music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/ghost.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ghost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.game.executor": "Run",
+    "Python.ghost.executor": "Run",
     "Python.main.executor": "Run",
     "Python.menu.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -187,12 +186,43 @@
       <option name="project" value="LOCAL" />
       <updated>1741059510401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project initialized, need to implement fases and back to main menu">
+      <option name="closed" value="true" />
+      <created>1743283151179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743283151180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit (main.py) - creating the game window" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit (main.py) - creating the game window" />
+    <MESSAGE value="project initialized, need to implement fases and back to main menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="project initialized, need to implement fases and back to main menu" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
